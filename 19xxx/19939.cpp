@@ -5,8 +5,6 @@
 
 using namespace std;
 
-#define ITERATE(var, init, N) for (int var = init; var < N; var++)
-
 int main() {
     int N, K;
     cin >> N >> K;
