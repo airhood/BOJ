@@ -65,7 +65,7 @@ int main() {
         compressed.push_back((int)(lower_bound(unique_arr.begin(), unique_arr.end(), arr[i]) - unique_arr.begin()) + 1);
     }
 
-    LisSegmentTree segment_tree((int)unique_arr.size());
+    LisSegmentTree segment_tree(unique_arr.size());
 
     for (int i = 0; i < N; i++) {
         int val = compressed[i];
